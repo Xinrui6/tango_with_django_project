@@ -4,7 +4,7 @@ from django.http import HttpResponse
 def index(request): 
     # Construct a dictionary to pass to thetemplateengineasitscontext. 
     # Note the key boldmessage matches to{{boldmessage}}in the template!
-    context_dict ={'boldmessage':'Crunchy,creamy,cookie,candy,cupcake!'}
+    context_dict ={'boldmessage':'Crunchy, creamy, cookie, candy, cupcake!'}
     
     # Returna rendered response to send totheclient. 
     # We make use of the shortcut function to make our lives easier. 
